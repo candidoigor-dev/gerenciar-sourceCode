@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private static $host = "localhost";
-    private static $usuario = "root";
+    private static $host = "";
+    private static $usuario = "";
     private static $senha = "";
-    private static $banco = "estoque"; // Substitua pelo nome real do seu banco de dados
+    private static $banco = ""; // Substitua pelo nome real do seu banco de dados
     private static $conexao = null;
 
     public static function getConnect() {
